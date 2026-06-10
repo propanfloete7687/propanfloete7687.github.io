@@ -13,7 +13,17 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "PACKAGE_NAME_JUMPING",
+      "package_name": "io.github.propanfloete7687.zumba",
+      "sha256_cert_fingerprints": [
+        "45:23:CC:59:1B:E8:DB:8E:E1:F8:8B:2A:22:EA:5B:A0:10:4F:BF:44:9B:6C:7F:FA:C3:C4:3F:9E:BF:4B:F7:FA"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.propanfloete7687.jumping",
       "sha256_cert_fingerprints": [
         "FINGERPRINT_JUMPING_AUS_PLAY_CONSOLE"
       ]
@@ -23,9 +33,69 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "io.github.propanfloete7687.zumba",
+      "package_name": "io.github.propanfloete7687.pilates",
       "sha256_cert_fingerprints": [
-        "45:23:CC:59:1B:E8:DB:8E:E1:F8:8B:2A:22:EA:5B:A0:10:4F:BF:44:9B:6C:7F:FA:C3:C4:3F:9E:BF:4B:F7:FA"
+        "FINGERPRINT_PILATES_AUS_PLAY_CONSOLE"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.propanfloete7687.yoga",
+      "sha256_cert_fingerprints": [
+        "FINGERPRINT_YOGA_AUS_PLAY_CONSOLE"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.propanfloete7687.hiit",
+      "sha256_cert_fingerprints": [
+        "FINGERPRINT_HIIT_AUS_PLAY_CONSOLE"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.propanfloete7687.bbp",
+      "sha256_cert_fingerprints": [
+        "FINGERPRINT_BBP_AUS_PLAY_CONSOLE"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.propanfloete7687.ruecken",
+      "sha256_cert_fingerprints": [
+        "FINGERPRINT_RUECKEN_AUS_PLAY_CONSOLE"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.propanfloete7687.stretching",
+      "sha256_cert_fingerprints": [
+        "FINGERPRINT_STRETCHING_AUS_PLAY_CONSOLE"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.propanfloete7687.aerobic",
+      "sha256_cert_fingerprints": [
+        "FINGERPRINT_AEROBIC_AUS_PLAY_CONSOLE"
       ]
     }
   }
