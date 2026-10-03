@@ -3,29 +3,9 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "io.github.propanfloete7687.twa",
+      "package_name": "io.github.propanfloete7687.bbp",
       "sha256_cert_fingerprints": [
         "80:D4:8C:C7:66:D4:66:80:41:80:DE:62:79:F6:43:A0:35:8B:DD:1A:3C:95:2F:19:B3:4B:86:B5:AF:60:95:63"
-      ]
-    }
-  },
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "io.github.propanfloete7687.zumba",
-      "sha256_cert_fingerprints": [
-        "SHA256_ZUMBA_AUS_PLAY_CONSOLE_ERSETZEN"
-      ]
-    }
-  },
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "io.github.propanfloete7687.jumping",
-      "sha256_cert_fingerprints": [
-        "FINGERPRINT_JUMPING_AUS_PLAY_CONSOLE"
       ]
     }
   },
@@ -63,9 +43,19 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "io.github.propanfloete7687.bbp",
+      "package_name": "io.github.propanfloete7687.zumba",
       "sha256_cert_fingerprints": [
-        "D3:69:DD:EA:61:A6:19:CB:2D:F6:E9:BA:AB:55:28:25:39:B4:78:D1:AE:A2:0D:F7:9F:2C:A4:C1:9B:DA:18:43"
+        "SHA256_ZUMBA_AUS_PLAY_CONSOLE_ERSETZEN"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.propanfloete7687.jumping",
+      "sha256_cert_fingerprints": [
+        "SHA256_JUMPING_AUS_PLAY_CONSOLE_ERSETZEN"
       ]
     }
   },
@@ -75,7 +65,7 @@
       "namespace": "android_app",
       "package_name": "io.github.propanfloete7687.ruecken",
       "sha256_cert_fingerprints": [
-        "FINGERPRINT_RUECKEN_AUS_PLAY_CONSOLE"
+        "SHA256_RUECKEN_AUS_PLAY_CONSOLE_ERSETZEN"
       ]
     }
   },
@@ -85,7 +75,7 @@
       "namespace": "android_app",
       "package_name": "io.github.propanfloete7687.stretching",
       "sha256_cert_fingerprints": [
-        "FINGERPRINT_STRETCHING_AUS_PLAY_CONSOLE"
+        "SHA256_STRETCHING_AUS_PLAY_CONSOLE_ERSETZEN"
       ]
     }
   },
@@ -95,17 +85,7 @@
       "namespace": "android_app",
       "package_name": "io.github.propanfloete7687.aerobic",
       "sha256_cert_fingerprints": [
-        "FINGERPRINT_AEROBIC_AUS_PLAY_CONSOLE"
-      ]
-    }
-  },
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "io.github.propanfloete7687.menueplaner",
-      "sha256_cert_fingerprints": [
-        "7A:57:76:C6:C3:32:6F:28:03:F1:1D:0F:0F:F8:3D:B9:1F:44:56:FE:62:13:DD:B3:9D:9B:D6:E6:C3:9D:8D:7F"
+        "SHA256_AEROBIC_AUS_PLAY_CONSOLE_ERSETZEN"
       ]
     }
   }
