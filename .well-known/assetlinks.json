@@ -15,7 +15,7 @@
       "namespace": "android_app",
       "package_name": "io.github.propanfloete7687.zumba",
       "sha256_cert_fingerprints": [
-        "86:A8:61:38:E0:15:96:1C:F4:16:26:E9:CE:C0:5F:F8:52:E1:51:E8"
+        "SHA256_ZUMBA_AUS_PLAY_CONSOLE_ERSETZEN"
       ]
     }
   },
@@ -35,7 +35,7 @@
       "namespace": "android_app",
       "package_name": "io.github.propanfloete7687.pilates",
       "sha256_cert_fingerprints": [
-        "FINGERPRINT_PILATES_AUS_PLAY_CONSOLE"
+        "22:3E:1B:84:D3:5D:90:C8:1F:95:EA:58:45:64:B2:BB:98:FA:57:F2:76:48:F0:2F:A0:3D:AA:CC:2D:01:D1:8B"
       ]
     }
   },
@@ -45,7 +45,7 @@
       "namespace": "android_app",
       "package_name": "io.github.propanfloete7687.yoga",
       "sha256_cert_fingerprints": [
-        "EC:A3:1A:3F:B6:24:20:62:FC:50:88:0D:62:9D:F9:E6:02:5C:E7:20:79:3C:10:0C:87:82:F4:38:C7:52:9E:BB" 
+        "EC:A3:1A:3F:B6:24:20:62:FC:50:88:0D:62:9D:F9:E6:02:5C:E7:20:79:3C:10:0C:87:82:F4:38:C7:52:9E:BB"
       ]
     }
   },
@@ -55,7 +55,7 @@
       "namespace": "android_app",
       "package_name": "io.github.propanfloete7687.hiit",
       "sha256_cert_fingerprints": [
-        "FINGERPRINT_HIIT_AUS_PLAY_CONSOLE"
+        "80:64:39:0B:F5:28:50:77:30:56:61:0D:31:94:F5:06:F0:95:F0:6C:3F:D2:E4:01:D7:8F:A3:42:EB:06:08:05"
       ]
     }
   },
@@ -65,7 +65,7 @@
       "namespace": "android_app",
       "package_name": "io.github.propanfloete7687.bbp",
       "sha256_cert_fingerprints": [
-        "FINGERPRINT_BBP_AUS_PLAY_CONSOLE"
+        "D3:69:DD:EA:61:A6:19:CB:2D:F6:E9:BA:AB:55:28:25:39:B4:78:D1:AE:A2:0D:F7:9F:2C:A4:C1:9B:DA:18:43"
       ]
     }
   },
@@ -96,6 +96,16 @@
       "package_name": "io.github.propanfloete7687.aerobic",
       "sha256_cert_fingerprints": [
         "FINGERPRINT_AEROBIC_AUS_PLAY_CONSOLE"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.propanfloete7687.menueplaner",
+      "sha256_cert_fingerprints": [
+        "7A:57:76:C6:C3:32:6F:28:03:F1:1D:0F:0F:F8:3D:B9:1F:44:56:FE:62:13:DD:B3:9D:9B:D6:E6:C3:9D:8D:7F"
       ]
     }
   }
