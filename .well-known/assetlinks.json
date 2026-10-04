@@ -13,6 +13,16 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
+      "package_name": "io.github.propanfloete7687.twa",
+      "sha256_cert_fingerprints": [
+        "80:D4:8C:C7:66:D4:66:80:41:80:DE:62:79:F6:43:A0:35:8B:DD:1A:3C:95:2F:19:B3:4B:86:B5:AF:60:95:63"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
       "package_name": "io.github.propanfloete7687.pilates",
       "sha256_cert_fingerprints": [
         "22:3E:1B:84:D3:5D:90:C8:1F:95:EA:58:45:64:B2:BB:98:FA:57:F2:76:48:F0:2F:A0:3D:AA:CC:2D:01:D1:8B"
@@ -86,6 +96,16 @@
       "package_name": "io.github.propanfloete7687.aerobic",
       "sha256_cert_fingerprints": [
         "SHA256_AEROBIC_AUS_PLAY_CONSOLE_ERSETZEN"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.propanfloete7687.menueplaner",
+      "sha256_cert_fingerprints": [
+        "7A:57:76:C6:C3:32:6F:28:03:F1:1D:0F:0F:F8:3D:B9:1F:44:56:FE:62:13:DD:B3:9D:9B:D6:E6:C3:9D:8D:7F"
       ]
     }
   }
