@@ -1,52 +1,283 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Datenschutzerklärung – Step Aerobic Trainer</title>
-<style>
-  body{font-family:sans-serif;max-width:680px;margin:40px auto;padding:0 20px;
-       background:#08080E;color:#E8E8F2;line-height:1.7}
-  h1{color:#FF6B35;font-size:1.6rem;margin-bottom:6px}
-  h2{color:#FF6B35;font-size:1.1rem;margin-top:32px}
-  p,li{color:#AAAACC;font-size:.95rem}
-  a{color:#FF6B35}
-  .back{display:inline-block;margin-bottom:28px;color:#FF6B35;
-        text-decoration:none;font-size:.9rem}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datenschutzerklärung – SelfMadeSportApps</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1a1a2e;
+      --accent: #2E86AB;
+      --muted: #5d6d7e;
+      --border: #dde3ea;
+      --card: #f7f9fc;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1117;
+        --text: #e8edf2;
+        --accent: #5ab3d4;
+        --muted: #8899aa;
+        --border: #2a3545;
+        --card: #1a2130;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 16px;
+    }
+    header {
+      background: var(--accent);
+      color: #fff;
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+    header h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: .3rem; }
+    header p  { font-size: .9rem; opacity: .85; }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+    .info-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.2rem 1.4rem;
+      margin-bottom: 2rem;
+      font-size: .9rem;
+      color: var(--muted);
+    }
+    .info-box strong { color: var(--text); }
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin: 2rem 0 .6rem;
+      padding-bottom: .3rem;
+      border-bottom: 2px solid var(--border);
+    }
+    p { margin-bottom: .8rem; }
+    ul { margin: .5rem 0 .8rem 1.4rem; }
+    li { margin-bottom: .3rem; }
+    .app-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: .5rem;
+      margin: .8rem 0;
+    }
+    .app-tag {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: .4rem .8rem;
+      font-size: .85rem;
+      font-weight: 600;
+    }
+    .contact-block {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.2rem 1.4rem;
+      margin-top: 1rem;
+    }
+    .contact-block p { margin: 0; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .lang-toggle {
+      text-align: right;
+      margin-bottom: 1.5rem;
+    }
+    .lang-btn {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: .3rem .8rem;
+      cursor: pointer;
+      font-size: .85rem;
+      color: var(--text);
+    }
+    [lang-section="en"] { display: none; }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: .8rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+  </style>
 </head>
 <body>
 
-<a class="back" href="index.html">← Zurück zur App</a>
+<header>
+  <h1>Datenschutzerklärung</h1>
+  <p>SelfMadeSportApps · Ingo Burgold · Stand: Oktober 2026</p>
+</header>
 
-<h1>Datenschutzerklärung</h1>
-<p><strong>Step Aerobic Trainer</strong> – Stand: Mai 2026</p>
+<main>
+  <div class="lang-toggle">
+    <button class="lang-btn" onclick="toggleLang()">🇬🇧 English version below</button>
+  </div>
 
-<h2>1. Verantwortlicher</h2>
-<p>
-  Ingo Burgold <br>
-  Am Voeckelsberg 21<br>
-  52249 Eschweiler<br>
-  Deutschland<br>
-  E-Mail: <a href="mailto:Ingoburgold87@gmail.com">Ingoburgold87@gmail.com</a>
-</p>
+  <!-- GERMAN -->
+  <div lang-section="de">
 
-<h2>2. Grundsatz</h2>
-<p>Diese App wurde so entwickelt, dass sie vollständig offline funktioniert
-und keinerlei personenbezogene Daten erhebt, speichert oder überträgt.</p>
+    <div class="info-box">
+      <strong>Entwickler:</strong> Ingo Burgold, handelnd unter SelfMadeSportApps<br>
+      <strong>Adresse:</strong> Am Vöckelsberg 21, 52249 Eschweiler, Deutschland<br>
+      <strong>Kontakt:</strong> <a href="mailto:Ingoburgold87@gmail.com">Ingoburgold87@gmail.com</a><br>
+      <strong>Google Play:</strong> SelfMadeSportApps (Konto-ID: 4926654283350923803)
+    </div>
 
-<h2>3. Welche Daten werden verarbeitet?</h2>
-<p>Keine. Die App speichert ausschließlich lokal auf deinem Gerät:</p>
-<ul>
-  <li>Selbst erstellte Trainingspläne</li>
-  <li>Trainingshistorie und Statistiken</li>
-  <li>Favoriten und eigene Übungen</li>
-  <li>Wochenplan-Einträge</li>
-</ul>
-<p>Diese Daten verlassen dein Gerät zu keinem Zeitpunkt.
-Es werden keine Analyse-Dienste, Tracking oder Werbenetze eingesetzt.</p>
+    <p>Diese Datenschutzerklärung gilt für alle Android-Apps, die von <strong>Ingo Burgold / SelfMadeSportApps</strong> im Google Play Store veröffentlicht werden, darunter:</p>
 
-<h2>4. Google Play Store</h2>
-<p>Beim Download über den Google Play Store erhebt Google eigene Daten.
-Diese unterliegen Googles Datenschutzerklärung:
-<a href="https://policies.google.com/p
+    <div class="app-list">
+      <div class="app-tag">Bauch Beine Po Trainer</div>
+      <div class="app-tag">Step Aerobic Trainer</div>
+      <div class="app-tag">Pilates Trainer</div>
+      <div class="app-tag">Yoga Trainer</div>
+      <div class="app-tag">HIIT Trainer</div>
+      <div class="app-tag">Zumba Trainer</div>
+      <div class="app-tag">Jumping Trainer</div>
+      <div class="app-tag">Rücken Trainer</div>
+      <div class="app-tag">Stretching Trainer</div>
+      <div class="app-tag">Aerobic Trainer</div>
+      <div class="app-tag">Menü-Essen-Planer</div>
+    </div>
+
+    <h2>1. Grundsatz: Keine Datenweitergabe</h2>
+    <p>Unsere Apps erheben, speichern und übertragen <strong>keine personenbezogenen Daten</strong> an externe Server, Dritte oder den Entwickler. Es findet keine Datenverarbeitung außerhalb des Geräts des Nutzers statt.</p>
+
+    <h2>2. Lokal gespeicherte Daten</h2>
+    <p>Alle Apps speichern Nutzerdaten ausschließlich lokal auf dem Gerät des Nutzers (Browser-LocalStorage / Android WebView-Storage). Dazu gehören:</p>
+    <ul>
+      <li>Trainingsplan- und Wochenplan-Einträge</li>
+      <li>Trainingshistorie und Streak-Daten</li>
+      <li>Einstellungen (Sprache, Darstellungsmodus)</li>
+      <li>Individuelle Übungsanpassungen</li>
+      <li>Freischalt-Status nach Code-Eingabe</li>
+    </ul>
+    <p>Diese Daten verlassen das Gerät nicht und sind ausschließlich für den Nutzer zugänglich. Sie können jederzeit durch Deinstallation der App oder Löschen der App-Daten entfernt werden.</p>
+
+    <h2>3. Keine Nutzungsanalyse / keine Tracker</h2>
+    <p>Unsere Apps enthalten <strong>keine</strong> Analyse-Tools, Tracking-Bibliotheken, Werbenetze oder sonstige Drittanbieter-SDKs, die Nutzungsdaten sammeln könnten (z. B. keine Google Analytics, Firebase, Meta-Pixel o. Ä.).</p>
+
+    <h2>4. Internetverbindung</h2>
+    <p>Die Apps sind als Progressive Web Apps (PWA) konzipiert und <strong>vollständig offline nutzbar</strong>. Eine Internetverbindung ist nur beim erstmaligen Laden der App über den Play Store erforderlich. Nach dem ersten Start funktionieren alle Funktionen ohne Netzverbindung.</p>
+
+    <h2>5. Abonnement und Zahlung</h2>
+    <p>Der optionale Abo-Kauf (1,99 EUR/Monat) wird vollständig über <strong>Google Play Billing</strong> abgewickelt. Zahlungsdaten werden ausschließlich von Google verarbeitet. Der Entwickler erhält keine Zahlungsdaten des Nutzers. Es gelten die <a href="https://policies.google.com/privacy" target="_blank">Datenschutzbestimmungen von Google</a>.</p>
+
+    <h2>6. Berechtigungen</h2>
+    <p>Unsere Apps fordern <strong>keine</strong> Geräteberechtigungen an (kein Kamerazugriff, kein Standort, keine Kontakte, kein Mikrofon, kein Speicherzugriff außerhalb der App).</p>
+
+    <h2>7. Kinder</h2>
+    <p>Unsere Apps richten sich an Erwachsene ab 18 Jahren. Wir erheben wissentlich keine Daten von Personen unter 13 Jahren. Falls ein Erziehungsberechtigter feststellt, dass ein Kind unsere Apps genutzt hat, kann er uns kontaktieren.</p>
+
+    <h2>8. Deine Rechte (DSGVO)</h2>
+    <p>Da wir keine personenbezogenen Daten verarbeiten oder speichern, entfallen die meisten datenschutzrechtlichen Ansprüche gegenständlich. Für etwaige Fragen stehen wir dennoch zur Verfügung:</p>
+    <div class="contact-block">
+      <p><strong>Verantwortlicher:</strong> Ingo Burgold (SelfMadeSportApps)<br>
+      Am Vöckelsberg 21, 52249 Eschweiler, Deutschland<br>
+      E-Mail: <a href="mailto:Ingoburgold87@gmail.com">Ingoburgold87@gmail.com</a></p>
+    </div>
+
+    <h2>9. Änderungen dieser Datenschutzerklärung</h2>
+    <p>Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf zu aktualisieren. Die aktuelle Version ist stets unter <strong>https://propanfloete7687.github.io/privacy.html</strong> abrufbar. Das Datum der letzten Aktualisierung ist im Header dieser Seite angegeben.</p>
+
+  </div><!-- /de -->
+
+  <!-- ENGLISH -->
+  <div lang-section="en" style="display:none;">
+
+    <div class="info-box">
+      <strong>Developer:</strong> Ingo Burgold, operating as SelfMadeSportApps<br>
+      <strong>Address:</strong> Am Vöckelsberg 21, 52249 Eschweiler, Germany<br>
+      <strong>Contact:</strong> <a href="mailto:Ingoburgold87@gmail.com">Ingoburgold87@gmail.com</a><br>
+      <strong>Google Play:</strong> SelfMadeSportApps (Account ID: 4926654283350923803)
+    </div>
+
+    <p>This Privacy Policy applies to all Android apps published by <strong>Ingo Burgold / SelfMadeSportApps</strong> on Google Play, including:</p>
+
+    <div class="app-list">
+      <div class="app-tag">Bauch Beine Po Trainer</div>
+      <div class="app-tag">Step Aerobic Trainer</div>
+      <div class="app-tag">Pilates Trainer</div>
+      <div class="app-tag">Yoga Trainer</div>
+      <div class="app-tag">HIIT Trainer</div>
+      <div class="app-tag">Zumba Trainer</div>
+      <div class="app-tag">Jumping Trainer</div>
+      <div class="app-tag">Rücken Trainer</div>
+      <div class="app-tag">Stretching Trainer</div>
+      <div class="app-tag">Aerobic Trainer</div>
+      <div class="app-tag">Menü-Essen-Planer</div>
+    </div>
+
+    <h2>1. Core Principle: No Data Sharing</h2>
+    <p>Our apps do <strong>not</strong> collect, store, or transmit any personal data to external servers, third parties, or the developer. No data processing occurs outside the user's device.</p>
+
+    <h2>2. Locally Stored Data</h2>
+    <p>All apps store user data exclusively on the user's device (browser localStorage / Android WebView storage), including:</p>
+    <ul>
+      <li>Workout and weekly planner entries</li>
+      <li>Training history and streak data</li>
+      <li>Settings (language, display mode)</li>
+      <li>Individual exercise customizations</li>
+      <li>Unlock status after code entry</li>
+    </ul>
+    <p>This data never leaves the device and is only accessible to the user. It can be removed at any time by uninstalling the app or clearing app data.</p>
+
+    <h2>3. No Analytics / No Trackers</h2>
+    <p>Our apps contain <strong>no</strong> analytics tools, tracking libraries, ad networks, or third-party SDKs that could collect usage data (e.g., no Google Analytics, Firebase, or Meta Pixel).</p>
+
+    <h2>4. Internet Connection</h2>
+    <p>The apps are Progressive Web Apps (PWA) and are <strong>fully usable offline</strong>. An internet connection is only required when first loading the app via Google Play. After the first launch, all features work without a network connection.</p>
+
+    <h2>5. Subscription and Payment</h2>
+    <p>The optional subscription (EUR 1.99/month) is processed entirely through <strong>Google Play Billing</strong>. Payment data is handled solely by Google. The developer does not receive any payment data. <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a> applies.</p>
+
+    <h2>6. Permissions</h2>
+    <p>Our apps request <strong>no</strong> device permissions (no camera, location, contacts, microphone, or storage access outside the app).</p>
+
+    <h2>7. Children</h2>
+    <p>Our apps are intended for adults 18 and older. We do not knowingly collect data from anyone under 13. If a parent or guardian becomes aware that a child has used our apps, please contact us.</p>
+
+    <h2>8. Your Rights (GDPR)</h2>
+    <p>Since we do not process or store personal data, most data protection rights do not apply in practice. For any questions, we remain available:</p>
+    <div class="contact-block">
+      <p><strong>Controller:</strong> Ingo Burgold (SelfMadeSportApps)<br>
+      Am Vöckelsberg 21, 52249 Eschweiler, Germany<br>
+      Email: <a href="mailto:Ingoburgold87@gmail.com">Ingoburgold87@gmail.com</a></p>
+    </div>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We reserve the right to update this policy as needed. The current version is always available at <strong>https://propanfloete7687.github.io/privacy.html</strong>. The date of the last update is shown in the page header.</p>
+
+  </div><!-- /en -->
+
+</main>
+
+<footer>
+  &copy; 2026 Ingo Burgold / SelfMadeSportApps &middot; Am Vöckelsberg 21, 52249 Eschweiler &middot;
+  <a href="mailto:Ingoburgold87@gmail.com">Ingoburgold87@gmail.com</a>
+</footer>
+
+<script>
+  let currentLang = 'de';
+  function toggleLang() {
+    currentLang = currentLang === 'de' ? 'en' : 'de';
+    document.querySelectorAll('[lang-section]').forEach(el => {
+      el.style.display = el.getAttribute('lang-section') === currentLang ? 'block' : 'none';
+    });
+    const btn = document.querySelector('.lang-btn');
+    btn.textContent = currentLang === 'de' ? '🇬🇧 English version below' : '🇩🇪 Deutsche Version';
+  }
+</script>
+
+</body>
+</html>
