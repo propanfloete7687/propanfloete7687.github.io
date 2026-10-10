@@ -75,7 +75,7 @@
       "namespace": "android_app",
       "package_name": "io.github.propanfloete7687.ruecken",
       "sha256_cert_fingerprints": [
-        "SHA256_RUECKEN_AUS_PLAY_CONSOLE_ERSETZEN"
+        "FF:DC:A1:98:FB:D2:08:9E:B5:9D:E6:4A:F0:35:BD:43:E7:B0:6F:91:E1:57:F8:69:C1:F5:F8:7F:A6:07:9A:F6"
       ]
     }
   },
@@ -85,7 +85,7 @@
       "namespace": "android_app",
       "package_name": "io.github.propanfloete7687.stretching",
       "sha256_cert_fingerprints": [
-        "SHA256_STRETCHING_AUS_PLAY_CONSOLE_ERSETZEN"
+        "64:D4:16:02:56:CA:D6:86:9E:53:5C:03:5B:ED:58:82:97:C6:4C:05:8F:BD:D6:EA:9C:ED:AE:38:20:C4:20:25"
       ]
     }
   },
@@ -95,7 +95,7 @@
       "namespace": "android_app",
       "package_name": "io.github.propanfloete7687.aerobic",
       "sha256_cert_fingerprints": [
-        "SHA256_AEROBIC_AUS_PLAY_CONSOLE_ERSETZEN"
+        "33:73:A1:04:29:4E:5C:05:4E:D9:A6:22:07:A5:3D:8C:7A:EA:D9:D2:4F:3A:3E:7C:31:8E:51:7A:65:F9:1F:82"
       ]
     }
   },
