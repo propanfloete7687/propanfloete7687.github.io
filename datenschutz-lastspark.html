@@ -17,7 +17,7 @@ p,li{color:var(--fg)}small,.mut{color:var(--mut)}a{color:var(--acc)}hr{border:0;
 <p>Last Spark ist ein Spiel. Es gibt kein Benutzerkonto und keinen eigenen Server. Spielstände bleiben auf deinem Gerät. Das Spiel wird durch Werbung von Google AdMob finanziert; dafür verarbeitet Google Daten wie unten beschrieben.</p>
 
 <h2>2. Lokal gespeicherte Daten</h2>
-<p>Spielfortschritt (Bestweite, Credits, Upgrades, Missionen, freigeschaltete Figuren und Kapitel, Einstellungen, Werbefrei-Status) wird nur im lokalen Speicher der App auf deinem Gerät abgelegt. Wir haben keinen Zugriff darauf. Beim Deinstallieren der App werden diese Daten gelöscht.</p>
+<p>Spielfortschritt (Bestweite, Credits, Datenchips, Upgrades, Missionen, Erfolge, freigeschaltete Figuren, Outfits und Kapitel, Einstellungen, Werbefrei-Status) wird nur auf deinem Gerät gespeichert: im Speicher der App und als Sicherungskopie in den App-Einstellungen von Android. Wir haben keinen Zugriff darauf. Wenn du die automatische Android-Sicherung in deinem Google-Konto aktiviert hast, kann Android diese Daten dort sichern und bei einer Neuinstallation wiederherstellen; das steuerst du in den Android-Einstellungen. Beim Deinstallieren der App werden die Daten auf dem Gerät gelöscht.</p>
 
 <h2>3. Werbung (Google AdMob)</h2>
 <p>Die App zeigt Werbung über Google AdMob, einen Dienst der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Es gibt zwei Arten:</p>
@@ -30,14 +30,17 @@ p,li{color:var(--fg)}small,.mut{color:var(--mut)}a{color:var(--acc)}hr{border:0;
 <p>Die Werbe-ID kannst du außerdem in den Android-Einstellungen (Google → Werbung bzw. Datenschutz → Werbung) zurücksetzen oder löschen.</p>
 <p>Google kann Daten auch in Länder außerhalb der EU (insbesondere die USA) übermitteln; Google ist nach dem EU-US Data Privacy Framework zertifiziert. Weitere Informationen: <a href="https://policies.google.com/technologies/partner-sites?hl=de">So verwendet Google Daten von Apps, die Google-Dienste nutzen</a> · <a href="https://policies.google.com/privacy?hl=de">Datenschutzerklärung von Google</a>.</p>
 
-<h2>4. Kauf „Werbefrei“ (Google Play Billing)</h2>
-<p>Die einmalige In-App-Kauf-Option „Werbefrei“ wird vollständig über Google Play abgewickelt. Zahlungsdaten erhalten wir nicht. Die App erfährt von Google Play nur, ob der Kauf vorliegt. Nach dem Kauf werden keine Anzeigen mehr geladen; Belohnungsvideos kannst du weiterhin freiwillig ansehen.</p>
+<h2>4. In-App-Käufe (Google Play Billing)</h2>
+<p>Die App bietet den einmaligen Kauf „Werbefrei“ und Datenchip-Pakete an. Alle Käufe werden vollständig über Google Play abgewickelt. Zahlungsdaten erhalten wir nicht. Die App erfährt von Google Play nur, welcher Kauf vorliegt, und speichert die Kennung des Kaufs auf deinem Gerät, damit er nicht doppelt gutgeschrieben wird. Nach dem Kauf „Werbefrei“ wird keine Zwischenwerbung mehr gezeigt; Belohnungsvideos kannst du weiterhin freiwillig ansehen.</p>
+
+<h2>4a. Tägliche Erinnerung</h2>
+<p>Wenn du es erlaubst, zeigt die App einmal am Tag eine Erinnerung an neue Missionen und den Tagesbonus. Die Erinnerung wird auf deinem Gerät geplant (lokale Benachrichtigung); es gibt keinen Server und keine Push-Dienste, und es werden dabei keine Daten übertragen. Du kannst sie im Spiel unter <i>Optionen → Erinnerung</i> oder in den Android-Einstellungen jederzeit abschalten.</p>
 
 <h2>5. Keine Analyse, kein Tracking durch uns</h2>
 <p>Wir setzen keine eigenen Analyse- oder Tracking-Werkzeuge ein (kein Google Analytics, Firebase Analytics, Meta Pixel o. Ä.). Abstürze oder Nutzungsdaten werden von uns nicht erhoben.</p>
 
 <h2>6. Berechtigungen</h2>
-<p>Die App nutzt: <i>Internet</i> (Werbung laden, Kauf prüfen), <i>Werbe-ID</i> (AdMob, siehe oben) und <i>Google Play Billing</i> (Kauf „Werbefrei“). Keine Kamera, kein Mikrofon, keine Kontakte, kein genauer Standort.</p>
+<p>Die App nutzt: <i>Internet</i> (Werbung laden, Käufe prüfen), <i>Werbe-ID</i> (AdMob, siehe oben), <i>Google Play Billing</i> (In-App-Käufe), <i>Benachrichtigungen</i> (tägliche Erinnerung, nur mit deiner Erlaubnis) und <i>Vibration</i> (Rückmeldung im Spiel, abschaltbar). Keine Kamera, kein Mikrofon, keine Kontakte, kein Standort durch die App selbst.</p>
 
 <h2>7. Kinder</h2>
 <p>Last Spark richtet sich an Jugendliche ab 13 Jahren und Erwachsene. Die App ist nicht für Kinder unter 13 Jahren bestimmt.</p>
@@ -53,11 +56,12 @@ p,li{color:var(--fg)}small,.mut{color:var(--mut)}a{color:var(--acc)}hr{border:0;
 <p class="mut">Android app “Last Spark” (io.github.propanfloete7687.lastspark) · Last updated: October 2026</p>
 <p><b>Controller:</b> Ingo Burgold (SelfMadeSportApps), Am Vöckelsberg 21, 52249 Eschweiler, Germany · <a href="mailto:Ingoburgold87@gmail.com">Ingoburgold87@gmail.com</a></p>
 <h2>1. Overview</h2><p>Last Spark is a game with no user account and no server of ours. Game progress stays on your device. The game is funded by ads from Google AdMob, which processes data as described below.</p>
-<h2>2. Data stored on your device</h2><p>Progress, settings and the ad-free status are stored only in the app's local storage. We cannot access it; uninstalling the app deletes it.</p>
+<h2>2. Data stored on your device</h2><p>Progress, settings, outfits and the ad-free status are stored only on your device: in the app's storage and as a backup copy in the app's Android preferences. We cannot access it. If Android's automatic backup to your Google account is turned on, Android may back these data up there and restore them after a reinstall; you control this in the Android settings. Uninstalling the app deletes the data on the device.</p>
 <h2>3. Advertising (Google AdMob)</h2><p>The app shows rewarded videos (only when you choose to watch one; the reward is shown beforehand) and occasional full-screen ads between runs, never during a run. Google Ireland Limited may process your device's advertising ID, IP address, device and OS information, language, approximate location derived from the IP address, and ad interactions in order to serve, cap, measure and protect ads and, only with your consent, to personalise them. Users in the EEA, UK and Switzerland are asked for consent on first launch via Google's User Messaging Platform (IAB TCF certified CMP); legal basis is consent (Art. 6(1)(a) GDPR). You can change or withdraw your choice at any time under <i>Options → Privacy settings</i>, and reset or delete your advertising ID in Android settings. Google may transfer data outside the EU (e.g. to the USA) under the EU-US Data Privacy Framework. More: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
-<h2>4. “Ad-free” purchase</h2><p>The one-time purchase is processed entirely by Google Play. We do not receive payment data; the app only learns whether you own the purchase.</p>
+<h2>4. In-app purchases</h2><p>The app offers the one-time purchase “Ad-free” and data chip packs. All purchases are processed entirely by Google Play. We do not receive payment data; the app only learns which purchase you made and stores its identifier on your device so it is never credited twice.</p>
+<h2>4a. Daily reminder</h2><p>If you allow it, the app shows one reminder a day about new missions and the daily bonus. It is scheduled on your device (local notification); there is no server or push service and no data is transmitted. You can turn it off at any time under <i>Options → Reminder</i> or in the Android settings.</p>
 <h2>5. No analytics by us</h2><p>We use no analytics or tracking tools of our own.</p>
-<h2>6. Permissions</h2><p>Internet, advertising ID and Google Play Billing. No camera, microphone, contacts or precise location.</p>
+<h2>6. Permissions</h2><p>Internet, advertising ID, Google Play Billing, notifications (daily reminder, only with your permission) and vibration (game feedback, can be turned off). No camera, microphone, contacts or location access by the app itself.</p>
 <h2>7. Children</h2><p>Last Spark is intended for users aged 13 and older and is not directed at children under 13.</p>
 <h2>8. Your rights</h2><p>Under the GDPR you have the right of access, rectification, erasure, restriction, portability, objection and to withdraw consent at any time, and you may lodge a complaint with a supervisory authority.</p>
 <h2>9. Changes</h2><p>We will update this policy when the app or the law changes. The version published here applies.</p>
