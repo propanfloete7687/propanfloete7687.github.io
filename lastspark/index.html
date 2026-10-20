@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Last Spark – Neon Runner</title>
+<meta name="description" content="Last Spark: Endless Runner in einer Neon-Cyberpunk-Stadt. Renn gegen ARCHONs Roboter, weich aus, triff sie mit dem EMP und besiege den Wächter.">
+<link rel="icon" href="img/icon.png">
+<style>
+  :root{--void:#07060f;--panel:#110f24;--line:rgba(150,160,230,.22);--ink:#eef1ff;--dim:#9aa2c8;--cyan:#22f0ff;--mag:#ff2bd6;--gold:#ffd23f}
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--void);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  a{color:var(--cyan)}
+  .wrap{max-width:960px;margin:0 auto;padding:0 16px}
+  header{padding:28px 0 8px;display:flex;align-items:center;gap:14px}
+  header img{width:48px;height:48px;border-radius:12px}
+  header b{font-size:20px;letter-spacing:.08em}
+  nav{margin-left:auto;display:flex;gap:16px;font-size:14px}
+  nav a{color:var(--dim);text-decoration:none}
+  .hero img{width:100%;border-radius:14px;border:1px solid var(--line);display:block}
+  h1{font-size:clamp(28px,6vw,44px);line-height:1.1;margin:28px 0 8px;background:linear-gradient(95deg,var(--cyan),var(--mag));-webkit-background-clip:text;background-clip:text;color:transparent}
+  h2{font-size:22px;margin:44px 0 12px;color:var(--cyan);letter-spacing:.04em}
+  .lead{color:var(--dim);font-size:18px;max-width:680px}
+  .btn{display:inline-block;margin:18px 0 0;padding:12px 22px;border-radius:8px;background:linear-gradient(95deg,var(--cyan),#5a8cff);color:#07060f;font-weight:700;text-decoration:none}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px}
+  .card b{display:block;margin-bottom:4px}
+  .card span{color:var(--dim);font-size:15px}
+  .shots{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+  .shots img{width:100%;border-radius:10px;border:1px solid var(--line)}
+  @media (max-width:640px){.shots{grid-template-columns:repeat(2,1fr)} nav{display:none}}
+  .legal{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;color:var(--dim)}
+  .legal p{margin:0 0 12px}
+  .legal strong{color:var(--ink)}
+  footer{margin:48px 0 32px;color:var(--dim);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="img/icon.png" alt="">
+    <b>LAST SPARK</b>
+    <nav><a href="#spiel">Spiel</a><a href="#kontakt">Kontakt</a><a href="#impressum">Impressum</a><a href="../datenschutz-lastspark.html">Datenschutz</a></nav>
+  </header>
+
+  <div class="hero"><img src="img/feature.jpg" alt="Last Spark: Läuferin in einer Neon-Stadt vor ARCHONs Robotern"></div>
+
+  <h1>Renn gegen die Maschinen.</h1>
+  <p class="lead">Halcyon, 2097: Die Stadt-KI ARCHON hat die Maschinen übernommen. Als Rae „Spark“ Voss rennst du durch fünf Neon-Zonen, weichst Robotern aus, schaltest sie mit dem EMP-Handschuh aus und stellst dich dem ARCHON-Wächter.</p>
+  <p class="lead" lang="en">An endless runner in a neon cyberpunk city – in English and German.</p>
+  <a class="btn" href="https://play.google.com/store/apps/details?id=io.github.propanfloete7687.lastspark">Bei Google Play</a>
+
+  <h2 id="spiel">Das Spiel</h2>
+  <div class="grid">
+    <div class="card"><b>Drei Spuren, schnelle Wischgesten</b><span>Springen, Ducken mit Knie-Rutschen, Spur wechseln – ein Tipp löst den EMP aus.</span></div>
+    <div class="card"><b>Bosskampf</b><span>Der ARCHON-Wächter markiert Spuren, feuert Strahlen und öffnet nur kurz seinen Kern.</span></div>
+    <div class="card"><b>Fortschritt</b><span>Missionen, Tagesbonus, Wochenziel, Erfolge, Upgrades und eine Story in acht Kapiteln.</span></div>
+    <div class="card"><b>Vier Figuren</b><span>Rae, Mara, Doc Hex und Bolt – jede mit eigener Fähigkeit und zweitem Outfit.</span></div>
+  </div>
+  <div class="shots" style="margin-top:16px">
+    <img src="img/shot1.jpg" alt="Lauf durch den Neon-Markt" loading="lazy">
+    <img src="img/shot2.jpg" alt="Bosskampf gegen den ARCHON-Wächter" loading="lazy">
+    <img src="img/shot3.jpg" alt="Brecher-Roboter im Schrottwerk" loading="lazy">
+    <img src="img/shot4.jpg" alt="Figuren und Outfits" loading="lazy">
+  </div>
+
+  <h2 id="kontakt">Kontakt</h2>
+  <p>Fragen, Fehler oder Ideen zum Spiel: <a href="mailto:Ingoburgold87@gmail.com?subject=Last%20Spark">Ingoburgold87@gmail.com</a></p>
+  <p>Kein Konto, kein Login: Dein Spielstand bleibt auf deinem Gerät. Wie Werbung und Käufe funktionieren, steht in der <a href="../datenschutz-lastspark.html">Datenschutzerklärung</a>.</p>
+
+  <h2 id="impressum">Impressum</h2>
+  <div class="legal">
+    <p><strong>Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz)</strong><br>Ingo Burgold<br>Am Vöckelsberg 21<br>52249 Eschweiler<br>Deutschland</p>
+    <p><strong>Kontakt</strong><br>E-Mail: <a href="mailto:Ingoburgold87@gmail.com">Ingoburgold87@gmail.com</a></p>
+    <p><strong>Umsatzsteuer</strong><br>Als Kleinunternehmer im Sinne von § 19 UStG wird keine Umsatzsteuer ausgewiesen.</p>
+    <p><strong>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</strong><br>Ingo Burgold, Anschrift wie oben.</p>
+    <p><strong>Verbraucherstreitbeilegung</strong><br>Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+  </div>
+
+  <footer>© 2026 Ingo Burgold · <a href="#impressum">Impressum</a> · <a href="../datenschutz-lastspark.html">Datenschutz</a></footer>
+</div>
+</body>
+</html>
