@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Pocket Soldier – Pixel-Soldat zum Großziehen</title>
+<meta name="description" content="My Pocket Soldier: Dein kleiner Pixel-Soldat für die Hosentasche. Füttern, schlafen lassen, in Einsätze schicken, befördern – von Private bis General und Prestige ohne Ende.">
+<link rel="icon" href="img/icon.png">
+<style>
+  :root{--bg:#1e2117;--panel:#2a2f20;--line:#4d5639;--ink:#ece6cc;--dim:#aaa78c;--brass:#e2a73c}
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  a{color:var(--brass)}
+  .wrap{max-width:960px;margin:0 auto;padding:0 16px}
+  header{padding:28px 0 8px;display:flex;align-items:center;gap:14px}
+  header img{width:48px;height:48px;border-radius:12px;image-rendering:pixelated}
+  header b{font-size:20px;letter-spacing:.08em}
+  nav{margin-left:auto;display:flex;gap:16px;font-size:14px}
+  nav a{color:var(--dim);text-decoration:none}
+  .hero img{width:100%;border-radius:14px;border:2px solid var(--line);display:block;image-rendering:pixelated}
+  h1{font-size:clamp(28px,6vw,44px);line-height:1.1;margin:28px 0 8px;color:var(--brass)}
+  h2{font-size:22px;margin:44px 0 12px;color:var(--brass);letter-spacing:.04em}
+  .lead{color:var(--dim);font-size:18px;max-width:680px}
+  .btn{display:inline-block;margin:18px 0 0;padding:12px 22px;border-radius:8px;background:var(--brass);color:#1e2117;font-weight:700;text-decoration:none}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+  .card{background:var(--panel);border-left:4px solid var(--line);padding:16px}
+  .card b{display:block;margin-bottom:4px}
+  .card span{color:var(--dim);font-size:15px}
+  .shots{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+  .shots img{width:100%;border-radius:10px;border:2px solid var(--line)}
+  @media (max-width:640px){.shots{grid-template-columns:repeat(2,1fr)} nav{display:none}}
+  .legal{background:var(--panel);border:2px solid var(--line);border-radius:10px;padding:18px 20px;color:var(--dim)}
+  .legal p{margin:0 0 12px}
+  .legal strong{color:var(--ink)}
+  footer{margin:48px 0 32px;color:var(--dim);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="img/icon.png" alt="">
+    <b>MY POCKET SOLDIER</b>
+    <nav><a href="#spiel">Spiel</a><a href="#kontakt">Kontakt</a><a href="#impressum">Impressum</a><a href="../datenschutz-mypocketsoldier.html">Datenschutz</a></nav>
+  </header>
+
+  <div class="hero"><img src="img/feature.jpg" alt="My Pocket Soldier: kleiner Pixel-Soldat mit Gewehr"></div>
+
+  <h1>Dein Soldat für die Hosentasche.</h1>
+  <p class="lead">Wie ein Tamagotchi, nur mit einem kleinen Pixel-Soldaten: Gib ihm zu essen, lass ihn schlafen, schick ihn in Einsätze und rüste ihn mit neuen Waffen aus. Er meldet sich, wenn er Hunger hat, müde ist oder vom Einsatz zurückkommt.</p>
+  <p class="lead" lang="en">Raise your own pixel soldier – feed him, rest him, send him on missions. In English and German.</p>
+  <a class="btn" href="https://play.google.com/store/apps/details?id=io.github.propanfloete7687.mypocketsoldier">Bei Google Play</a>
+
+  <h2 id="spiel">Das Spiel</h2>
+  <div class="grid">
+    <div class="card"><b>Von Private bis General</b><span>22 Dienstgrade der US Army mit echten Abzeichen, danach Prestige ohne Ende.</span></div>
+    <div class="card"><b>Einsätze in Echtzeit</b><span>Von der 10-Minuten-Streife bis zum 12-Stunden-Kommandoeinsatz. Gut versorgt steigt die Chance.</span></div>
+    <div class="card"><b>5 Sonderaufträge</b><span>Schießstand, Minenräumung, Funkcode, Granatwurf und Hindernisbahn als Minispiele.</span></div>
+    <div class="card"><b>Arsenal und Basis</b><span>10 Waffen mit fünf Ausbaustufen, 12 Tarnmuster und eine Unterkunft zum Ausbauen.</span></div>
+  </div>
+  <div class="shots" style="margin-top:16px">
+    <img src="img/shot1.jpg" alt="Basis mit Soldat und Auftragsbrett" loading="lazy">
+    <img src="img/shot2.jpg" alt="Beförderung zum Captain" loading="lazy">
+    <img src="img/shot3.jpg" alt="Sonderauftrag Schießstand" loading="lazy">
+    <img src="img/shot4.jpg" alt="Arsenal mit Waffen" loading="lazy">
+  </div>
+
+  <h2 id="kontakt">Kontakt</h2>
+  <p>Fragen, Fehler oder Ideen zum Spiel: <a href="mailto:Ingoburgold87@gmail.com?subject=My%20Pocket%20Soldier">Ingoburgold87@gmail.com</a></p>
+  <p>Kein Konto nötig: Dein Spielstand bleibt auf deinem Gerät, auf Wunsch zusätzlich in Google Play Spiele. Wie Werbung, Käufe und Erinnerungen funktionieren, steht in der <a href="../datenschutz-mypocketsoldier.html">Datenschutzerklärung</a>.</p>
+
+  <h2 id="impressum">Impressum</h2>
+  <div class="legal">
+    <p><strong>Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz)</strong><br>Ingo Burgold<br>Am Vöckelsberg 21<br>52249 Eschweiler<br>Deutschland</p>
+    <p><strong>Kontakt</strong><br>E-Mail: <a href="mailto:Ingoburgold87@gmail.com">Ingoburgold87@gmail.com</a></p>
+    <p><strong>Umsatzsteuer</strong><br>Als Kleinunternehmer im Sinne von § 19 UStG wird keine Umsatzsteuer ausgewiesen.</p>
+    <p><strong>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</strong><br>Ingo Burgold, Anschrift wie oben.</p>
+    <p><strong>Verbraucherstreitbeilegung</strong><br>Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+  </div>
+
+  <footer>© 2026 Ingo Burgold · <a href="#impressum">Impressum</a> · <a href="../datenschutz-mypocketsoldier.html">Datenschutz</a></footer>
+</div>
+</body>
+</html>
