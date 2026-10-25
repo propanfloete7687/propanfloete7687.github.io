@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sonnenblüte – Pixel-Abenteuer auf dem Hof</title>
+<meta name="description" content="Sonnenblüte: Ein Pixel-Abenteuer zwischen Hof und Dungeon. Bau Sonnenblüten an, befreie das versteinerte Dorf Lindtal und finde deinen Opa.">
+<link rel="icon" href="img/icon.png">
+<style>
+  :root{--bg:#141c26;--panel:#1f2a37;--line:#3a4a5c;--ink:#fff4dc;--dim:#b9b2a0;--sun:#f4b63c}
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  a{color:var(--sun)}
+  .wrap{max-width:960px;margin:0 auto;padding:0 16px}
+  header{padding:28px 0 8px;display:flex;align-items:center;gap:14px}
+  header img{width:48px;height:48px;border-radius:12px;image-rendering:pixelated}
+  header b{font-size:20px;letter-spacing:.08em}
+  nav{margin-left:auto;display:flex;gap:16px;font-size:14px}
+  nav a{color:var(--dim);text-decoration:none}
+  .hero img{width:100%;border-radius:14px;border:2px solid var(--line);display:block;image-rendering:pixelated}
+  h1{font-size:clamp(28px,6vw,44px);line-height:1.1;margin:28px 0 8px;color:var(--sun)}
+  h2{font-size:22px;margin:44px 0 12px;color:var(--sun);letter-spacing:.04em}
+  .lead{color:var(--dim);font-size:18px;max-width:680px}
+  .btn{display:inline-block;margin:18px 0 0;padding:12px 22px;border-radius:8px;background:var(--sun);color:#141c26;font-weight:700;text-decoration:none}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+  .card{background:var(--panel);border-left:4px solid var(--sun);padding:16px}
+  .card b{display:block;margin-bottom:4px}
+  .card span{color:var(--dim);font-size:15px}
+  .shots{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+  .shots img{width:100%;border-radius:10px;border:2px solid var(--line)}
+  @media (max-width:640px){.shots{grid-template-columns:repeat(2,1fr)} nav{display:none}}
+  .legal{background:var(--panel);border:2px solid var(--line);border-radius:10px;padding:18px 20px;color:var(--dim)}
+  .legal p{margin:0 0 12px}
+  .legal strong{color:var(--ink)}
+  footer{margin:48px 0 32px;color:var(--dim);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="img/icon.png" alt="">
+    <b>SONNENBLÜTE</b>
+    <nav><a href="#spiel">Spiel</a><a href="#kontakt">Kontakt</a><a href="#impressum">Impressum</a><a href="../datenschutz-sonnenbluete.html">Datenschutz</a></nav>
+  </header>
+
+  <div class="hero"><img src="img/feature.jpg" alt="Sonnenblüte: das Dorf Lindtal in Pixel-Grafik"></div>
+
+  <h1>Ein Dorf aus Stein. Ein Hof voller Licht.</h1>
+  <p class="lead">Du übernimmst Opa Konrads Hof bei Lindtal – doch ein Fluch vom Nordberg hat das ganze Dorf zu Stein erstarren lassen. Nur das Licht der Sonnenblüte kann es retten. Bau sie an, erkunde den Ostwald, löse die Rätsel im alten Erzstollen und finde heraus, wohin dein Opa verschwunden ist.</p>
+  <a class="btn" href="https://play.google.com/store/apps/details?id=io.github.propanfloete7687.sonnenbluete">Bei Google Play</a>
+
+  <h2 id="spiel">Das Spiel</h2>
+  <div class="grid">
+    <div class="card"><b>Hof & Abenteuer</b><span>Tagsüber säen, gießen und ernten, dann mit dem Schwert in Wald und Stollen.</span></div>
+    <div class="card"><b>Rätsel & Boss</b><span>Steinblöcke, Bodenplatten, Kristallschalter, Schlüssel – und der Felsenwächter.</span></div>
+    <div class="card"><b>Ein Dorf erwacht</b><span>Befreie Bruno, Greta, Albrecht und Lina. Jeder öffnet seinen Laden und neue Wege.</span></div>
+    <div class="card"><b>Fair & offline</b><span>Keine Pflicht-Werbung. Videos nur, wenn du eine Belohnung willst. Spielbar ohne Internet.</span></div>
+  </div>
+
+  <h2>Bilder</h2>
+  <div class="shots">
+    <img src="img/shot1.jpg" alt="Opas Haus mit Pip, dem Sonnenfunken">
+    <img src="img/shot2.jpg" alt="Das Feld am Abend mit leuchtenden Sonnenblüten">
+    <img src="img/shot3.jpg" alt="Kristallschalter-Rätsel im Erzstollen">
+    <img src="img/shot4.jpg" alt="Gretas Schmiede">
+  </div>
+
+  <h2 id="kontakt">Kontakt & Hilfe</h2>
+  <p>Fragen, Fehler oder Ideen für Kapitel 2? Schreib mir: <a href="mailto:Ingoburgold87@gmail.com">Ingoburgold87@gmail.com</a></p>
+  <p>Werbe-Einwilligung ändern: im Spiel unter <i>Menü → Optionen → Datenschutz-Einstellungen</i>. Spielstände liegen auf deinem Gerät und – wenn du bei Google Play Spiele angemeldet bist – zusätzlich in deinem Google-Konto.</p>
+
+  <h2 id="impressum">Impressum</h2>
+  <div class="legal">
+    <p><strong>Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz)</strong><br>Ingo Burgold<br>Am Vöckelsberg 21<br>52249 Eschweiler<br>Deutschland</p>
+    <p><strong>Kontakt</strong><br>E-Mail: <a href="mailto:Ingoburgold87@gmail.com">Ingoburgold87@gmail.com</a></p>
+    <p><strong>Umsatzsteuer</strong><br>Als Kleinunternehmer im Sinne von § 19 UStG wird keine Umsatzsteuer ausgewiesen.</p>
+    <p><strong>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</strong><br>Ingo Burgold, Anschrift wie oben.</p>
+    <p><strong>Verbraucherstreitbeilegung</strong><br>Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+  </div>
+
+  <footer>© 2026 Ingo Burgold · <a href="#impressum">Impressum</a> · <a href="../datenschutz-sonnenbluete.html">Datenschutz</a></footer>
+</div>
+</body>
+</html>
